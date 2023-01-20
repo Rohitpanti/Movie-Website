@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    display: flex;
+    padding: 0px 25px;
+    background-color: #3a2424;
+
+}
+.item{
+    list-style: none;
+    padding: 3px 8px;
+
+}
+.item a{
+    padding: 18px 10px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Monoton', cursive;
+}
+.item a:hover{
+    background: white;
+    color:black;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.container{
+    background-color: white;
+    max-width: 69%;
+    margin: 12px auto;
+    padding: 46px;
+    height: 300vh;
+    opacity: 60%;
+    border-bottom-left-radius: 75px;
+    border-top-right-radius: 75px;
+    font-weight: bold;
+}
+body{
+    background: url("https://thumbs.dreamstime.com/b/cinema-concept-vintage-film-reels-clapperboard-projector-cinema-concept-vintage-film-reels-clapperboard-projector-120850895.jpg");
+}
+h1{
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Black Ops One', cursive;
+    padding: 23px 0px;
+}
+p,ul>li{
+    font-family: 'Chivo Mono', monospace;
+}
+h3{
+    padding: 10px 0px;
+}
